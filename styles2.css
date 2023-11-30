@@ -1,0 +1,40 @@
+
+#contentSlide #block {
+    top: 30px;
+    width: 140px;
+    height: 170px;
+    margin: 0 5px;
+    background: white;
+    display: inline-block;
+    border :#000 ;
+}
+
+#btn-left {
+    position: static;
+    padding: 0;
+    top: 70px;
+    left: 0;
+    width: 50px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    z-index: 1;
+    background: rgba(245, 245, 245, 0.289);
+    cursor: pointer;
+    user-select: none;
+}
+
+#btn-right {
+    position: static;
+    padding: 0;
+    top: 70px;
+    right: 0;
+    width: 50px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    z-index: 1;
+    background: rgba(245, 245, 245, 0.289);
+    cursor: pointer;
+    user-select: none;
+}
